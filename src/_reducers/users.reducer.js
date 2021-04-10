@@ -10,7 +10,7 @@ export function users(state = {}, action) {
                 return {
                     items: action.users 
                 };
-                case userContacts.GETALL_FAILURE:
+                case userConstants.GETALL_FAILURE:
                     return {
                         error: action.error
                     };
